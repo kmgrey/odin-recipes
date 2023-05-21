@@ -1,0 +1,69 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #20b2aa20;
+}
+
+div {
+    background-color:#f0808040;
+}
+
+#website-name {
+    background-color: #20b2aa;
+    color: white;
+    font-size: 42px;
+ }
+
+.center-bold {
+    text-align: center;
+    font-weight: bold;
+}
+
+#contents-div {
+    background-color: #20b2aa80;
+}
+
+ #contents-list li {
+    font-size: 24px;
+    font-weight: bold;
+    color:#20b2aa;
+ }
+
+.contents-link {
+    text-decoration: none;
+    color: white;
+ }
+
+ .contents-link:hover {
+    text-decoration: underline;
+ }
+
+ .recipe-name {
+    font-size: 32px;
+    background-color: lightseagreen;
+    color: white;
+ }
+
+ .recipe-photo {
+    display: block;
+    height: auto;
+    width: 300px;
+    margin: auto;
+ }
+
+p,
+li {
+    color:#f08080;
+    font-size: 16px;
+ }
+
+ .description,
+ .ingredients,
+ .steps {
+    background-color: #f08080;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+ }
