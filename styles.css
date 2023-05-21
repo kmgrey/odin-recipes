@@ -4,6 +4,7 @@
 
 body {
     background-color: #20b2aa20;
+    margin: 0;
 }
 
 div {
@@ -14,6 +15,8 @@ div {
     background-color: #20b2aa;
     color: white;
     font-size: 42px;
+    margin: 0 auto;
+    padding: 10px 0;
  }
 
 .center-bold {
@@ -22,13 +25,27 @@ div {
 }
 
 #contents-div {
+    width: 100%;
+    margin: 0 auto;
     background-color: #20b2aa80;
 }
 
+#contents-list {
+    padding: 0px 0 15px 0;
+    margin-top: 0 auto;
+    text-align: center;
+}
+
  #contents-list li {
+    display: inline-flex;
     font-size: 24px;
     font-weight: bold;
-    color:#20b2aa;
+    list-style: none;
+    margin: 0 10px;
+    border: 4px #20b2aa solid;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #20b2aa50;
  }
 
 .contents-link {
